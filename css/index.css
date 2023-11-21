@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto !important;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px 0px;
+    background: rgb(38,201,234);
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    font-size: 16px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.hero{
+    margin-top: 75px;
+    background: rgb(38,201,234);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.hero-light h1{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.hero-light pre{
+    font-size: 16px;
+    color: rgb(100,141,118);
+    padding-bottom: 10px;
+}
+
+.hero-light h2{
+    font-size: 33px;
+    color: white;
+}
+
+.hero-btn{
+display: flex;
+align-items: center;
+gap: 100px;
+}
+
+.hero-btn button{
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+}
+
+.hero-btn p{
+    width: 120px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.hero-right{
+    width: 362px;
+    height: 362px;
+}
+.card{
+    width: 300px;
+    margin: 0px 10px;
+    display: inline-block;
+    /* background: white;
+    border-radius: 30px;
+    box-shadow: 10px; */
+}
+
+.All-product h2{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card p{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.card h3{
+text-align: center;
+}
+
+.card button{
+   margin-left: 100px;
+   border-radius: 18px;
+}
+
+.card img{
+   margin-left: 50px;
+    width: 198px;
+    height: 198px;
+}
+
+button{
+    width: 128px;
+    height: 49px;
+    top: 44px;
+    /* border:none; */
+    border-radius: 100px;
+    font-size: 20px;
+    background: white;
+}
+
+.View-All{
+   margin-left: 650px;
+   background: linear-gradient(90deg, #75CCEB 0%, #6FB4FF 100%);
+   ;
+   margin-top: 100px;
+   border-radius: 18px;
+}
+
+.best-price-light del{
+   text-decoration:line-through;
+}
+
+.best-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.best-price-right{
+    width: 248px;
+    height: 233px;
+}
+
+.best-price-light h2{
+font-size: 54px;
+color: #31546D;
+font-family: 'Playpen Sans', cursive;
+}
+
+.best-price-light del{
+    font-size: 20px;
+    color: #41A0B7;
+}
+
+.best-price-light h3{
+    font-size: 60px;
+    color: #E35B3E;
+}
+
+.best-price-light pre{
+    font-size: 14px;
+    color: #31546D;
+}
+
+
+/* @media(max-width: 500){
+ul{
+
+}
+}  */
